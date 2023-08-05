@@ -1,0 +1,71 @@
+body{
+  margin: 0px;
+}
+
+.flexbox-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgb(150, 72, 205);
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.home-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100px;
+
+}
+
+.textbox-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 800px;
+
+}
+
+.download-flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 150px;
+
+}
+
+.home-text{
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: Roboto,Arial;
+  font-weight: 700;
+
+}
+
+.textbox{
+  border: none;
+  border-radius: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 500px;
+}
+
+.download-button{
+  background-color: rgb(150, 72, 205);
+  color:  white;
+  cursor: pointer;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-width: 1px;
+
+}

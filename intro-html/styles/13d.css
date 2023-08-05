@@ -1,0 +1,107 @@
+.flexbox-div{
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 110px;
+
+}
+
+.all-inboxes-div{
+  display: block;
+
+}
+
+.profile-image-div{
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.all-texts-div{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.product-name-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.promotions-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+
+
+.message-caption-div{
+  display: block;
+
+}
+
+.message-div{
+  display: block;
+
+}
+
+p{
+  font-family: Roboto,Arial;
+  margin: 0px;
+  margin-left: 10px;
+
+}
+
+.all-inboxes-text{
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: grey;
+  display: block;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.product-name-text{
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+.time-text{
+  color: grey;
+  font-size: 14px;
+
+}
+
+.message-caption-text{
+  font-size: 17px;
+  font-weight: 700;
+
+}
+
+.message-text{
+  color: grey;
+  font-size: 14px;
+
+}
+
+.cat-image{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  object-fit: cover;
+  object-position: middle;
+
+}
+

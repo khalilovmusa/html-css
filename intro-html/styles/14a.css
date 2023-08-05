@@ -1,0 +1,26 @@
+.right-sidebar{
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 150px;
+  color: white;
+
+}
+
+body{
+  margin-bottom: 3000px;
+  
+}
+
+.left-sidebar{
+  background-color: rgb(28, 28, 99);
+  position: fixed;
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+
+}

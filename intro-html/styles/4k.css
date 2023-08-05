@@ -1,0 +1,57 @@
+
+.one-button{
+  background-color: green;
+  color: white;
+  transition: 1s;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.one-button:hover{
+  padding-left:20px;
+  padding-right: 20px;
+  transition: 1s;
+}
+
+.two-button{
+  background-color: green;
+  color: white;
+  transition: 1s;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.two-button:hover{
+  padding-left:20px;
+  padding-right: 20px;
+  transition: 1s;
+}
+
+.three-button{
+  background-color: green;
+  color: white;
+  transition: 1s;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.three-button:hover{
+  padding-left:20px;
+  padding-right: 20px;
+  transition: 1s;
+}

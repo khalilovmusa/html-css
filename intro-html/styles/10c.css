@@ -1,0 +1,54 @@
+.video-photo-div{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.minecraft-photo{
+  width: 220px;
+  height: 140px;
+  object-fit: cover;
+  margin-right: 0px;
+}
+
+p{
+  font-family: Roboto,Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 25px;
+}
+
+.video-info-div{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  width: 170px;
+}
+
+.video-title{
+font-weight: 500;
+font-size: 16px;
+
+}
+
+.video-author,
+.video-stats{
+  color: rgb(96, 96, 96);
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.video-stats{
+  margin-top: 20px;
+}
+
+.video-author-div{
+  margin-top: 20px;
+}
+
+.video-1-div,
+.video-2-div,
+.video-3-div{
+  display: block;
+  margin-top: 10px;
+
+}

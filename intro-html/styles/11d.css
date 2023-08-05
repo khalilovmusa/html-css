@@ -1,0 +1,79 @@
+.account-grid{
+display: grid;
+grid-template-columns: 317px 317px 317px;
+column-gap: 20px;
+
+}
+
+.olivers-account{
+  box-shadow: 1px 1px 5px rgba(0, 0, 0,0.8);
+  height: 460px;
+  width: 300px;
+}
+
+.account-image-div{
+width: 100%;
+height: 300px;
+}
+
+.olivers-image{
+  object-fit: cover;
+  width: 300px;
+  height: 270px;
+}
+
+.mutual-friend-photo{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-left: 7px;
+}
+
+.mutual-grid-div{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Roboto,Arial;
+  margin-left: 7px;
+}
+
+.friend-button-div{
+  margin-top: 35px;
+  margin-left: 7px;
+}
+
+.add-friend-button{
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(68, 68, 232);
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 9px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.add-friend-button:hover{
+  opacity: 0.8;
+  
+  }
+
+.oliver-text{
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 17px;
+}
+
+.mutual-text{
+margin-top: 3px;
+color: rgb(96, 96,96);
+font-size: 13px;
+margin-bottom: 0px;
+}
+

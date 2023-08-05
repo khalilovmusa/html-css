@@ -1,0 +1,60 @@
+.Back-amazon:hover{
+  color: red;
+}
+
+.price{
+ color: rgb(0,118,0);
+ font-weight: bold;
+}
+
+.Add-button{
+ background-color: rgb(255, 216, 20);
+ border: none;
+ font-weight: bold;
+ height: 40px;
+ width: 105px;
+ border-radius: 20px;
+ cursor: pointer;
+ font-size: small;
+ margin-right: 10px;
+ transition: background-color 0.15s,
+ opacity 0.15s,
+ box-shadow 0.15s;
+
+}
+
+.Add-button:hover{
+  background-color: rgb(216, 183, 18);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.Add-button:active{
+  opacity: 0.8;
+}
+
+.Buy-button{
+ background-color: rgb(255,164 ,28 );
+ font-size: small;
+ font-weight: bold;
+ height: 40px;
+ width:100px;
+ border-radius: 20px;
+ border: none;
+ cursor: pointer;
+transition: background-color 0.15s,
+opacity 0.15s,
+box-shadow 0.15s;
+
+}
+.Buy-button:hover{
+  background-color:rgb(201, 129, 22) ;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.Buy-button:active{
+  opacity: 0.8;
+}
+
+.Delivery-button{
+ font-weight: bold;
+}

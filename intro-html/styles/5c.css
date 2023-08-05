@@ -1,0 +1,54 @@
+p{
+  font-family: Verdana;
+
+}
+.course{
+  
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.level{
+  color: grey;
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 0px;
+}
+
+.description{
+  line-height: 50px;
+  font-size: 14px;
+  
+}
+
+.Get-started{
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
+
+.Get-started:hover{
+  box-shadow: 2px 2px 10px rgba(0, 0,0, 0.8);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 11px;
+  padding-left: 10px;
+
+}
+.Get-started:active{
+  opacity: 0.5;
+  transition: 1s;
+
+}
+
+.line-break{
+  margin-top: 0px;
+}

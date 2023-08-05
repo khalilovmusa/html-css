@@ -1,0 +1,28 @@
+.google-logo{
+  vertical-align: top;
+  object-fit: cover;
+  width: 500px;
+  margin-bottom: 0px;
+  margin-left: 25%;
+  display:inline-block;
+  height: 150px;
+}
+
+.google-searchbox{
+  border:none;
+  border-radius: 20px;
+  width: 500px;
+  margin-top: 0px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 10px;
+  box-shadow:1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin-left: 25%;
+  display: inline-block;
+  
+}
+
+.google-searchbox,
+.google-logo{
+ 
+}

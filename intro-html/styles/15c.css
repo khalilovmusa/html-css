@@ -1,0 +1,42 @@
+.video{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 320px;
+  height: 180px;
+}
+
+.video-image{
+  width: 320px;
+  height: 180px;
+  border: none;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: middle;
+
+}
+
+.close{
+  position: absolute;
+  top: -9px;
+  left: -9px;;
+
+}
+
+.close-button{
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.15s;
+
+}
+
+.close-button:active{
+  opacity: 0.8;
+  
+}

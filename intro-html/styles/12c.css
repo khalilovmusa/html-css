@@ -1,0 +1,17 @@
+.flexbox-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div-1,
+.div-3{
+background-color: lightblue;
+}
+
+.div-2,
+.div-4{
+  background-color: lightpink;
+}
+
+

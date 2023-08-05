@@ -1,0 +1,103 @@
+div{
+  font-family: Roboto,Arial;
+
+}
+
+.seperate{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.photo-sidebar{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 70px;
+  padding-top: 10px;
+}
+
+.sidebar-overlay{
+  margin-left: 60px;
+  position: fixed;
+  background-color: rgba(0,0,0,0.8);
+  top: 0;
+  bottom: 0;
+  width: 200px;
+  padding-left: 10px;
+  color: rgb(216, 213, 213);
+}
+
+.plus-text{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.new{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.updates{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.faq{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.hastag{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.oliver-image{
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: middle;
+
+}
+
+.mimi-image{
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: middle;
+
+}
+
+.rex-image{
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: middle;
+
+}

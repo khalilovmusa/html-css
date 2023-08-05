@@ -1,0 +1,11 @@
+.Amazon-button{
+  background-color: rgb(255,216,20);
+  color: black;
+  border: none;
+  height: 40px;
+  width: 160px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: solid;
+  font-size: 15px;
+}

@@ -1,0 +1,30 @@
+.question{
+  display: block;
+  font-size: 16px;
+  font-family: Arial;
+
+}
+
+.yes-button,
+.no-button{
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border:none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.div-element{
+  border-style: solid;
+  border-width: 2px;
+  display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}

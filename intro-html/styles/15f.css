@@ -1,0 +1,90 @@
+.overlay{
+  background-color: rgba(255,255,255,0.8);
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 120px;
+  
+}
+
+.button{
+  position: absolute;
+  top: 20px;
+  left: 110px;
+}
+
+.add-button{
+  background-color: rgb(242, 240, 240);
+  color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 1px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.15s;
+
+}
+
+.add-button:hover{
+  background-color: black;
+  color: white;
+  border-color: white;
+  opacity: 0.8;
+
+}
+
+.container{
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+  padding-right: 45px;
+  padding-bottom: 40px;
+  border: none;
+  border-radius: 5px;
+
+}
+
+body{
+  margin-bottom: 300px;
+
+}
+
+.clothes{
+  position: relative;
+  top: 20px;
+  left: 20px;
+  height: 450px;
+  width: 300px;
+
+}
+
+.clothes-image{
+  height: 450px;
+  width: 300px;
+  object-fit: cover;
+  object-position: middle;
+
+}
+
+.discount{
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background-color: black;
+  color: white;
+  font-family: Roboto,Arial;
+  font-size: 14px;
+  border: none;
+  border-radius: 3px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}

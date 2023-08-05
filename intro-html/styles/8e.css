@@ -1,0 +1,65 @@
+.request-text{
+font-weight: bold;
+font-family: Arial;
+margin-bottom: 20px;
+display: block;
+font-size: 30px;
+width: 700px
+}
+
+.pickup-location{
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 8px;
+border-style: solid;
+border-radius: 0px;
+display: block;
+margin-bottom: 4px;
+box-shadow:1px 1px 5px rgba(0, 0, 0, 0.5);
+width: 250px;
+border-width: 1px;
+}
+
+.destination{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-style: solid;
+  border-radius: 0px;
+  display: block;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  box-shadow:1px 1px 5px rgba(0, 0, 0, 0.5);
+  width: 250px;
+  border-width: 1px;
+}
+
+.request-now-button{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 124px;
+  height: 40px;
+  border-style: solid;
+  border: none;
+  font-weight: solid;
+  transition: 0.15s;
+  vertical-align: middle;
+}
+
+.request-now-button:hover{
+opacity: 0.8;
+}
+
+.schedule-later-button{
+  background-color:white;
+  color: black;
+  cursor: pointer;
+  width: 124px;
+  height: 40px;
+  border-style: solid;
+  border-width: 1px;
+  font-weight: solid;
+  vertical-align: middle;
+  margin-left: 12px;
+}

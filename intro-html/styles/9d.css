@@ -1,0 +1,42 @@
+.youtube-music{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color:black;
+}
+
+p{
+  font-family: Arial;
+  color: white;
+  display: block;
+}
+
+.install{
+  font-size: 30px;
+  
+}
+
+.add{
+  font-size: 16px;
+
+}
+
+.install-button{
+  background-color:orange;
+  border-style:solid;
+  border-radius:7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  transition: 1s;
+}
+
+.install-button:hover{
+  opacity: 0.8;
+  padding-left: 13px;
+  padding-right: 13px;
+  cursor: pointer;
+}

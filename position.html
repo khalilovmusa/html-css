@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+     <head>
+      <title>
+           CSS Position
+      </title>
+     </head>
+     <body style="
+     height: 3000px;
+     padding-top: 60px;
+     padding-left: 60px;
+
+     ">
+      <div style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 50px;
+        z-index: 0;
+        ">header</div>
+
+        <div style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        width: 60px;
+        bottom: 0;
+        ">
+          sidebar
+          <div style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          right: 0;
+          top: 0;
+          cursor: pointer;
+          ">X
+          </div>
+
+        </div>
+
+
+        <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 10px;
+        top: 10px;
+      
+        ">
+          absolute
+        </div>
+
+      <div style="
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;
+
+        " >
+        div1
+      </div>
+      <div style="
+      background-color: lightpink;
+      height: 200px;
+      width: 200px;
+
+      ">
+        div2
+      </div>
+     </body>
+</html>

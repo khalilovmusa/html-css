@@ -1,0 +1,32 @@
+
+
+ .price{
+  color: rgb(0,118,0);
+  font-weight: bold;
+ }
+ .Add-button{
+  background-color: rgb(255, 216, 20);
+  border: none;
+  font-weight: bold;
+  height: 40px;
+  width: 105px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: small;
+  margin-right: 10px;
+ }
+ .Buy-button{
+  background-color: rgb(255,164 ,28 );
+  font-size: small;
+  font-weight: bold;
+  height: 40px;
+  width:100px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+
+
+ }
+ .Delivery-button{
+  font-weight: bold;
+ }

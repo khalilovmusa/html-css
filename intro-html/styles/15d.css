@@ -1,0 +1,51 @@
+.video{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+}
+
+.video-image{
+  height: 180px;
+  width: 320px;
+  border: none;
+  border-radius: 5px;
+
+}
+
+.video-time{
+  position: absolute;
+  bottom: 8px;
+  right: 6px;
+  background-color: black;
+  color: white;
+  padding: 2px;
+  border: none;
+  border-radius: 4px;
+
+}
+
+.close{
+  position: absolute;
+  top: -10px;
+  left: -10px;
+
+}
+
+.close-button{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Arial;
+  border: none;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  transition: 0.15s;
+
+}
+
+.close-button:active{
+  opacity: 0.8;
+}

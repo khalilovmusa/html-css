@@ -1,0 +1,77 @@
+body{
+  margin-bottom: 3000px;
+
+}
+
+div{
+  font-family: Roboto,Arial;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  padding-top: 20px;
+  padding-left: 20px;
+
+}
+
+.cat-image{
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 25px;
+  object-fit: cover;
+  object-position: middle;
+
+}
+
+.name{
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  right: 0;
+
+}
+
+.add-button{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: rgb(65, 65, 238);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.message-button{
+  border: none;
+  background-color: rgb(248, 242, 242);
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  
+}
+

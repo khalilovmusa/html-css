@@ -1,0 +1,40 @@
+.Apply-button{
+  background-color: rgb(10,102 ,194);
+  border:none;
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: small;
+  font-weight: bold;
+  color: white;
+  margin-right: 10px;
+  transition: hover 0.15s,
+  box-shadow 0.15s,
+  color 0.15s,
+  opacity 0.15s;
+  
+}
+.Apply-button:hover{
+  background-color: rgb(8, 92, 177);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.Apply-button:active{
+  opacity: 0.8;
+}
+.Save-button{
+  background-color: none;
+  border-style: solid;
+  color:rgb(10,102 ,194);
+  border-color: rgb(10,102 ,194);
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+}
+.Save-button:hover{
+  border-width: 3px;
+  box-shadow:2px 2px 10px rgba(0, 0, 0, 0.4) ;
+}

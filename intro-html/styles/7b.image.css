@@ -1,0 +1,7 @@
+.minecraft{
+  width: 200px;
+  height: 200px;
+  border: none;
+  object-fit: cover;
+  object-position:middle;
+}

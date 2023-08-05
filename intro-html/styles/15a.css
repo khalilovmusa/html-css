@@ -1,0 +1,27 @@
+.container{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.close-button{
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+
+
+}
+
+body{
+  margin-bottom: 3000px;
+  
+}

@@ -1,0 +1,38 @@
+.google-logo{
+  object-fit: cover;
+  width: 500px;
+  display:inline-block;
+  height: 150px;
+}
+
+.google-searchbox{
+  border:none;
+  border-radius: 20px;
+  width: 500px;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 10px;
+  box-shadow:1px 1px 5px rgba(0, 0, 0, 0.5);
+  
+}
+
+div{
+text-align: center;
+margin-top: 20px;
+margin-left: 10px;
+}
+
+.search{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.feeling-lucky{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+

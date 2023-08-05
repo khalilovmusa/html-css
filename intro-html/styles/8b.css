@@ -1,0 +1,35 @@
+.question{
+display:inline-block;
+font-style: Arial;
+font-size: 16px;
+margin-right: 0px;
+font-weight: bold;
+width: 200px;
+vertical-align: middle;
+}
+
+.yes-button,
+.no-button{
+ border-radius: 5px;
+ width: 50px;
+ display: inline-block;
+ margin-left: 5px;
+ color: white;
+ background-color: green;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+ vertical-align: middle;
+ border:none;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+ transition: 0.15s;
+}
+
+.yes-button:hover,
+.no-button:hover{
+opacity: 0.8;
+transition:0.15s;
+cursor: pointer;
+}
+
