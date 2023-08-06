@@ -1,0 +1,76 @@
+.twitter-sidebar{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  top: 0;
+  bottom: 0;
+  left: 70px;
+  
+}
+
+.twitter-logo-image{
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: middle;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.search-icon-image{
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  object-fit: cover;
+  object-position: middle;
+  margin-top: 10px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.settings-image{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: middle;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.logo-icon,
+.search-icon,
+.settings-icon{
+  position: relative;
+  width: 50px;
+
+}
+
+
+
+.tooltip{
+  position: absolute;
+  color: white;
+  background-color: rgb(139, 139, 139);
+  font-size: 12px;
+  margin-left: 18px;
+  border: none;
+  border-radius: 2px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s;
+  z-index: 2;
+  
+}
+
+.logo-icon:hover .tooltip,
+.search-icon:hover .tooltip,
+.settings-icon:hover .tooltip{
+  opacity: 1;
+  transition: 0.25s;
+}

@@ -1,0 +1,147 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Roboto,Arial;
+  margin-bottom: 3000px;
+}
+
+@media (max-width: 900px){
+  .first-column{
+    flex-shrink: 0;
+  }
+
+  .overlay-buttons{
+    flex-shrink: 0;
+  }
+
+}
+
+.twitter{
+  position: relative;
+  
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.does-not-exist-text{
+  color: grey;
+  font-size: 15px;
+  
+}
+
+.search-button-container{
+  margin-top: 10px;
+  
+}
+
+.search-button{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  padding: 7px;
+  cursor: pointer;
+  
+}
+
+.button-text{
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.overlay{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(29, 155, 240);
+  z-index: 1;
+  height: 80px;
+
+}
+
+.overlay{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.first-column{
+  margin-left: 140px;
+
+}
+
+.text{
+  font-size: 28px;
+  font-family: Roboto,Arial;
+  color: white;
+  font-weight: 700;
+
+}
+
+.second-column{
+  font-size: 15px;
+
+}
+
+.overlay-buttons{
+  margin-right: 100px;
+
+}
+
+.log-in{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  background-color: rgb(29, 155, 240);
+  color: white;
+
+}
+
+.log-in:hover{
+  background-color: white;
+  color:rgb(29, 155, 240);
+  border-color:rgb(29, 155, 240);
+  
+
+}
+
+.sign-up{
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+  border-width: 1px;
+}
+
+.sign-up:hover{
+  color: rgb(29, 155, 240);
+
+}
+
+.button-font{
+  font-weight: 700;
+  font-size: 15px;
+
+}
+
+.search-button:hover{
+  opacity: 0.8;
+  
+}

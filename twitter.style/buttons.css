@@ -35,13 +35,18 @@
   
 }
 
+.sign-in-button:hover{
+  background-color: white;
+  border-color: black;
+
+}
 
 .sign-in-button,
 .create-account-button,
 .sign-as-musa-button,
 .apple-button{
   transition: 0.25s;
-
+  
 }
 
 .sign-in-button:hover,
@@ -49,4 +54,12 @@
 .sign-as-musa-button:hover,
 .apple-button:hover{
   opacity: 0.9;
+}
+
+.sign-in-button:active,
+.create-account-button:active,
+.sign-as-musa-button:active,
+.apple-button:active{
+  width: 310px;
+  transition-duration: 1s;
 }
